@@ -17,7 +17,7 @@ const check=async(e)=>{
 
 const logindata={loginemail,loginpass}
 
-const save=await fetch("http://localhost:9000/api/loginpage",{
+const save=await fetch("https://livepc-1-mrya.onrender.com/api/loginpage",{
 method:"post",
 body:JSON.stringify(logindata),
 headers:{

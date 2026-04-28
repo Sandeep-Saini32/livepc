@@ -19,7 +19,7 @@ const add=async(e)=>{
 
 const data={email,pass,name}
 
-const show=await fetch("http://localhost:9000/api/signup",{
+const show=await fetch("https://livepc-1-mrya.onrender.com/api/signup",{
 
     method:"post",
     body:JSON.stringify(data),

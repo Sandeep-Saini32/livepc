@@ -5,7 +5,12 @@ const mongoose=require("mongoose")
 
 const app=express()
 
-app.use(cors())
+const corsoption={
+    origin:"https://livepc.vercel.app",
+    Credentials:true
+}
+
+app.use(cors(corsoption))
 app.use(express.json())
 
 app.listen(9000, () => {
