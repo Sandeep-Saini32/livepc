@@ -13,7 +13,7 @@ app.listen(9000, () => {
 
 })
 
-mongoose.connect("mongodb://127.0.0.1:27017/reactapp")
+mongoose.connect("mongodb+srv://sandeepsaini6712_db_user:xlY2B7R9QEk70wOP@bookstore.5p6gufq.mongodb.net/try")
 
     .then(() => {
         console.log("connected to mongodb")
